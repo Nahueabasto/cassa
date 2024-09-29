@@ -6,7 +6,9 @@
     padding: 5rem 10px 5rem 100px;
     margin-top: 20px;
   }
-/* 
-  h2{
-    margin-bottom: 10px;
-  } */
+
+ @media screen and (max-width: 881px) {
+      .subtitle-container {
+        padding: 0rem 25px 0rem 25px;
+      }
+    }

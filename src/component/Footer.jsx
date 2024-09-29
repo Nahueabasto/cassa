@@ -17,26 +17,19 @@ export default function Footer(){
       <img className="logoeco" src={Imagen} alt="EcoEcho" width="200" height="200" />
       </div>
     <div className="Informacion">
-      {/* <h3>INFORMACION</h3> */}
       <Link to="/nosotros" className="links">
         <p>Nosotros</p>
         </Link>
       <Link to="/contacto" className="links">
         <p>Contacto</p>
       </Link>
+      <Link to="/contacto" className="links">
+        <p>Contacto</p>
+      </Link>
+      <Link to="/contacto" className="links">
+        <p>Contacto</p>
+      </Link>
     </div>
-    <div className="Contacto">
-      {/* <h3>CONTACTO</h3> */}
-      <p>
-         Arq. Maria Paula Ramos Landa
-      </p>
-      <p>
-         Mpaula.ramoslanda@gmail.com
-      </p>
-      <p>
-        +54 998 844 022
-      </p>
-</div>
   
   <div className="social-links">
   <a
@@ -48,7 +41,7 @@ export default function Footer(){
     <WhatsAppIcon
           className="mui"
           size={20}
-          style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
+          style={{ color: "#fff", fontSize: "large", marginRight: "0rem" }}
         />
         </div>
   </a>
@@ -61,7 +54,7 @@ export default function Footer(){
     <FacebookIcon
           className="mui"
           size={20}
-          style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
+          style={{ color: "#fff", fontSize: "large", marginRight: "0rem" }}
         />
         </div>
   </a>
@@ -74,7 +67,7 @@ export default function Footer(){
     <InstagramIcon
           className="mui"
           size={20}
-          style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
+          style={{ color: "#fff", fontSize: "large", marginRight: "0rem" }}
         />
         </div>
   </a>
@@ -87,7 +80,7 @@ export default function Footer(){
     <LinkedInIcon
           className="mui"
           size={20}
-          style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
+          style={{ color: "#fff", fontSize: "large", marginRight: "0rem" }}
         />
         </div>
   </a>
