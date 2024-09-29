@@ -101,7 +101,7 @@
   @media screen and (max-width: 881px) {
     .header {
       position: relative;
-      padding: 2rem 4rem; /* Ajusta el padding según lo que necesites */
+      padding: 1.5rem 4rem; /* Ajusta el padding según lo que necesites */
       flex-direction: column;
       align-items: center;
       transition: height 0.3s ease; /* Agrega transición para suavizar el cambio de altura */
@@ -114,7 +114,7 @@
       min-height: -200px; /* Altura mínima del header al abrir el menú */
   }
     .logo-container {
-      margin-top: -1rem;
+      margin-top: -0.5rem;
       align-items: center;
       /* padding: 0rem 10px 0rem 10px; */
    
@@ -137,7 +137,7 @@
   justify-content: space-between;
   align-items: center;
   width: 90vw;
-  padding: 1rem;
+  padding: 0.5rem;
   background-color: #4d4b4b;
   color: #fff;
   position: relative;
@@ -152,17 +152,15 @@
     
     .menu-bar-mobile p {
       margin: 0;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       color: #fff;
     }
     
-    .nav-menu {
+  .nav-menu {
       display: none;
-      
     }
   
-    .nav-menu-mobile {
- 
+  .nav-menu-mobile {
   margin-top: 0rem;
   justify-content: space-between;
   display: flex;
@@ -178,7 +176,7 @@
     }
   
     .nav-menu-mobile li {
-      padding: 1rem; /* Espaciado entre los enlaces */
+      padding: 0.5rem; /* Espaciado entre los enlaces */
     text-align: left; /* Centra el texto */
     border-bottom: 1px solid #fff; /* Líneas divisorias */
     }
