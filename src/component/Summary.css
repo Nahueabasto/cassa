@@ -3,9 +3,13 @@
     max-width: 7100px;
     margin: 0 auto; /* Centra el subtítulo */
     padding-top: 0rem; /* Ajusta el espaciado entre el grupo de miembros y el subtítulo */
-    padding: 5rem 10px 5rem 100px;
+    padding: 1rem 0px 1rem 100px;
     margin-top: 20px;
   }
+
+  .subtitle-container h2 {
+    margin-bottom: 1rem; /* Ajusta el valor según sea necesario */
+}
 
  @media screen and (max-width: 881px) {
       .subtitle-container {
