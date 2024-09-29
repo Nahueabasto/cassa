@@ -1,0 +1,203 @@
+
+   .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 6rem;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    z-index: 10;
+    background-color: #d2b48c;
+  }
+  
+  .logo-container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+ 
+  
+  .tagline {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .header-bg {
+    background-color: #d2b48c;
+    transition: 0.5s;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  
+  .nav-menu li {
+    padding: 0 1rem;
+  }
+  
+  .nav-menu li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-menu li a:hover {
+    color: #ccc;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    position: relative;
+    top: 20px;
+  }
+  
+  .icons .mui {
+    color: #fff;
+    margin: 0 0.5rem;
+  }
+  
+  /* Oculta el menú hamburguesa en pantallas grandes */
+  .hamburguer {
+    display: none;
+  }
+  
+  /* Barra del menú hamburguesa solo visible en pantallas pequeñas */
+  .menu-bar-mobile {
+    display: none;
+  }
+  
+  /* Menú móvil desplegable */
+  .nav-menu-mobile {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #d2b48c;
+  }
+  
+  .nav-menu-mobile li {
+    padding: 1rem;
+    border-bottom: 1px solid #fff;
+  }
+  
+  .nav-menu-mobile li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media screen and (max-width: 881px) {
+    .header {
+      position: relative;
+      padding: 2rem 4rem; /* Ajusta el padding según lo que necesites */
+      flex-direction: column;
+      align-items: center;
+      transition: height 0.3s ease; /* Agrega transición para suavizar el cambio de altura */
+      overflow: hidden; /* Asegura que el contenido no desborde cuando se cierra */
+      height: auto; /* Cambia a auto para que crezca según el contenido */
+  }
+
+  .header.expanded {
+      height: auto; /* Permitir que el header crezca automáticamente */
+      min-height: -200px; /* Altura mínima del header al abrir el menú */
+  }
+    .logo-container {
+      margin-top: -1rem;
+      align-items: center;
+      /* padding: 0rem 10px 0rem 10px; */
+   
+    }
+  
+    .logoeco {
+      margin-bottom: 0.5rem;
+    }
+  
+    .tagline {
+      font-size: 1rem;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  
+    .menu-bar-mobile {
+      display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  padding: 1rem;
+  background-color: #4d4b4b;
+  color: #fff;
+  position: relative;
+  box-sizing: border-box;
+    }
+    
+    .hamburguer {
+      display: block;
+      cursor: pointer;
+      margin-left: auto; /* Asegura que la hamburguesa esté a la derecha */
+    }
+    
+    .menu-bar-mobile p {
+      margin: 0;
+      font-size: 1.4rem;
+      color: #fff;
+    }
+    
+    .nav-menu {
+      display: none;
+      
+    }
+  
+    .nav-menu-mobile {
+ 
+  margin-top: 0rem;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 100%; /* Ajusta para que el menú se despliegue justo debajo de 'menu-bar-mobile' */
+  left: 0; /* Alineación a la izquierda */
+  width: 90vw; /* Asegura que el menú ocupe todo el ancho de la pantalla */
+  background-color: #131212;
+  z-index: 999;
+  box-sizing: border-box;
+  
+    }
+  
+    .nav-menu-mobile li {
+      padding: 1rem; /* Espaciado entre los enlaces */
+    text-align: left; /* Centra el texto */
+    border-bottom: 1px solid #fff; /* Líneas divisorias */
+    }
+    .nav-menu-mobile li a {
+      font-size: 1rem;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .menu-bar-mobile.active + .nav-menu-mobile {
+      display: flex; /* Mostrar el menú desplegable solo cuando esté activo */
+    }
+  
+    .icons {
+      display: none; /* Oculta los íconos en pantallas pequeñas */
+    }
+    /* .right{
+      padding: 0rem 100px 0rem 100px;
+    } */
+  }
+  
+  
