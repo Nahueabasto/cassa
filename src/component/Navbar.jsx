@@ -5,7 +5,6 @@ import CloseIcon from "@mui/icons-material/Close";
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import img from "../img/lo.png";
 import "./Navbar.css";
 
@@ -57,16 +56,16 @@ const Navbar = () => {
               <Link to="/" onClick={handleClick}>Home</Link>
             </li>
             <li>
-              <Link to="/nosotros" onClick={handleClick}>Nosotros</Link>
+              <Link to="/nosotros" onClick={handleClick}>Servicios</Link>
             </li>
             <li>
-              <Link to="/servicios" onClick={handleClick}>Servicios</Link>
+              <Link to="/servicios" onClick={handleClick}>Cabañas</Link>
             </li>
             <li>
-              <Link to="/clientes" onClick={handleClick}>Clientes</Link>
+              <Link to="/clientes" onClick={handleClick}>Galeria</Link>
             </li>
             <li>
-              <Link to="/contacto" onClick={handleClick}>Contacto</Link>
+              <Link to="/contacto" onClick={handleClick}>Reservas</Link>
             </li>
           </ul>
         )}
@@ -76,16 +75,16 @@ const Navbar = () => {
             <Link to="/" onClick={handleClick}>Home</Link>
           </li>
           <li>
-            <Link to="/nosotros" onClick={handleClick}>Nosotros</Link>
+            <Link to="/nosotros" onClick={handleClick}>Servicios</Link>
           </li>
           <li>
-            <Link to="/servicios" onClick={handleClick}>Servicios</Link>
+            <Link to="/servicios" onClick={handleClick}>Cabañas</Link>
           </li>
           <li>
-            <Link to="/clientes" onClick={handleClick}>Clientes</Link>
+            <Link to="/clientes" onClick={handleClick}>Galeria</Link>
           </li>
           <li>
-            <Link to="/contacto" onClick={handleClick}>Contacto</Link>
+            <Link to="/contacto" onClick={handleClick}>Reservas</Link>
           </li>
         </ul>
         {/* Iconos sociales */}
