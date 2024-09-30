@@ -88,6 +88,21 @@ const Navbar = () => {
             <Link to="/contacto" onClick={handleClick}>Contacto</Link>
           </li>
         </ul>
+        {/* Iconos sociales */}
+        <div className="icons">
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <WhatsAppIcon className="mui" size={20} style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }} />
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <FacebookIcon className="mui" size={20} style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }} />
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <InstagramIcon className="mui" size={20} style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }} />
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <LinkedInIcon className="mui" size={20} style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }} />
+          </a>
+        </div>
       </div>
     </div>
   );
