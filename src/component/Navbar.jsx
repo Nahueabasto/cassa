@@ -99,9 +99,9 @@ const Navbar = () => {
           <a href="" target="_blank" rel="noopener noreferrer">
             <InstagramIcon className="mui" size={20} style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }} />
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          {/* <a href="" target="_blank" rel="noopener noreferrer">
             <LinkedInIcon className="mui" size={20} style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }} />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
