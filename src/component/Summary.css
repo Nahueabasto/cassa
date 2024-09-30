@@ -3,7 +3,7 @@
     margin: 0 auto; /* Centra el subtítulo */
     padding-top: 0rem; /* Ajusta el espaciado entre el grupo de miembros y el subtítulo */
     padding: 1rem 100px 1rem 100px;
-    margin-top: 20px;
+    /* margin-top: 0px; */
   }
 
   .subtitle-container h2 {

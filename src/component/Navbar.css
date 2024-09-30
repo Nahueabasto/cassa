@@ -173,11 +173,10 @@
   background-color: #131212;
   z-index: 999;
   box-sizing: border-box;
-  
     }
   
     .nav-menu-mobile li {
-      padding: 0.5rem; /* Espaciado entre los enlaces */
+    padding: 0.5rem; /* Espaciado entre los enlaces */
     text-align: left; /* Centra el texto */
     border-bottom: 1px solid #fff; /* Líneas divisorias */
     width: 100%;
@@ -197,9 +196,6 @@
     .icons {
       display: none; /* Oculta los íconos en pantallas pequeñas */
     }
-    /* .right{
-      padding: 0rem 100px 0rem 100px;
-    } */
   }
   
   
