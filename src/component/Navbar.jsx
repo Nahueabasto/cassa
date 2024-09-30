@@ -39,9 +39,10 @@ const Navbar = () => {
       </div>
 
       <div className="right">
-        <div className="menu-bar-mobile">
+        {/* Cambiamos el onClick para la barra entera */}
+        <div className="menu-bar-mobile" onClick={handleClick}>
           <p>Menú</p>
-          <div className="hamburguer" onClick={handleClick}>
+          <div className="hamburguer">
             {click ? (
               <CloseIcon size={30} style={{ color: "#fff" }} />
             ) : (
@@ -87,22 +88,6 @@ const Navbar = () => {
             <Link to="/contacto" onClick={handleClick}>Contacto</Link>
           </li>
         </ul>
-
-        {/* Iconos sociales */}
-        <div className="icons">
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <WhatsAppIcon className="mui" size={20} style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }} />
-          </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <FacebookIcon className="mui" size={20} style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }} />
-          </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <InstagramIcon className="mui" size={20} style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }} />
-          </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <LinkedInIcon className="mui" size={20} style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }} />
-          </a>
-        </div>
       </div>
     </div>
   );

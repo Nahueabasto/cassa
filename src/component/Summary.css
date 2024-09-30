@@ -1,15 +1,20 @@
 .subtitle-container {
-    color: rgba(61, 62, 150, 0.85);
     max-width: 7100px;
     margin: 0 auto; /* Centra el subtítulo */
     padding-top: 0rem; /* Ajusta el espaciado entre el grupo de miembros y el subtítulo */
-    padding: 1rem 0px 1rem 100px;
+    padding: 1rem 100px 1rem 100px;
     margin-top: 20px;
   }
 
   .subtitle-container h2 {
-    margin-bottom: 1rem; /* Ajusta el valor según sea necesario */
-}
+    color: #3CB371; /* El color verde de la imagen */
+    margin-bottom: 1rem; /* Espaciado inferior del título */
+  }
+
+  .subtitle-container p {
+    color: #666666; /* El color morado-azul que se vio en la imagen */
+    line-height: 1.5;
+  }
 
  @media screen and (max-width: 881px) {
       .subtitle-container {
