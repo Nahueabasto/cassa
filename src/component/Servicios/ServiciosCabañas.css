@@ -1,18 +1,32 @@
 .dete {
-  padding: 15rem 100px 0rem 100px;
+  padding: 15rem 0px 0rem 0px;
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column; /* establece la dirección de los elementos en columna */
+  align-items: center;
+  /* position: relative; */
 }
 
 .dete h2 {
+  width: 100%; /* Hace que el h2 ocupe el 100% del ancho del contenedor padre */
   color: #3CB371;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: white;
+  justify-items: center; 
+  z-index: 10;
+  margin-right: 650px;
 }
 
 .detalle-f {
+  flex-direction: column;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
+  grid-column-gap: 20px; 
+  justify-items: center; 
+  grid-auto-flow: column; 
 }
+
 
 .imagenes-container img {
   width: 600px;
@@ -150,6 +164,20 @@
   width: 500px;
 }
 
+.texto h3{
+  margin-bottom: 1rem;
+}
+
+.texto p{
+  color: #666666; /* El color morado-azul que se vio en la imagen */
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 1322px) {
+  .dete h2{
+  margin-right: 0px;
+  }
+}
 
 @media screen and (max-width: 881px) {
   .dete {
@@ -202,6 +230,14 @@
 .modal-arrow-left,
 .modal-arrow-right {
   z-index: 1002; /* increase z-index to 1002 */
+}
+
+/* .texto{
+  text-align: left;
+  grid-column-gap: 0px;
+} */
+.texto h3{
+  margin-top: 1rem;
 }
 }
 

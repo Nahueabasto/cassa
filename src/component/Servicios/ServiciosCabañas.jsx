@@ -109,12 +109,19 @@ return () => {
           />
         </div>
       )}
-      <div>
-        <h2>s</h2>
+      <div className='texto'>
+        <h3>Cabañas Nahuel ofrece los siguientes servicios en su complejo:</h3>
+        <p><span class="bullet">•</span> Desayuno a la carta.</p>
+        <p><span class="bullet">•</span> Piscina y solárium.</p>
+        <p><span class="bullet">•</span> Servicio de limpieza.</p>
+        <p><span class="bullet">•</span> Wifi.</p>
+        <p><span class="bullet">•</span> Television satelital.</p>
+        <p><span class="bullet">•</span> Cocheras cubiertas e individuales.</p>
+        <p><span class="bullet">•</span> Aire Acondicionado (Todas las cabañas)</p>
+        <p><span class="bullet">•</span> Horno Microondas</p>
       </div>
     </div>
   </div>
-  
   );
 };
 
