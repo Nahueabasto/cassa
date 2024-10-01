@@ -1,16 +1,13 @@
 import React, { useEffect } from 'react';
 import Navbar from '../component/Navbar';
-import Slider from '../component/Slider';
 import Footer from '../component/Footer';
-import Summary from '../component/Summary';
+import Reserva from '../component/Reservas/Reserva';
 
-
-export default function Home(){
+export default function Reservas(){
     return(
         <div>
        <Navbar />
-       <Slider />
-       <Summary />
+       <Reserva />
        <Footer />
         </div>
     )

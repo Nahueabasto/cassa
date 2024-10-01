@@ -1,16 +1,13 @@
 import React, { useEffect } from 'react';
 import Navbar from '../component/Navbar';
-import Slider from '../component/Slider';
+import Cabañastext from '../component/Cabañas/Cabañastext';
 import Footer from '../component/Footer';
-import Summary from '../component/Summary';
 
-
-export default function Home(){
+export default function Cabañas(){
     return(
         <div>
        <Navbar />
-       <Slider />
-       <Summary />
+       <Cabañastext />
        <Footer />
         </div>
     )

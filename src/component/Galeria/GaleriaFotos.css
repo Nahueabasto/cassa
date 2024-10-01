@@ -1,0 +1,20 @@
+.galeria-fotos{
+  padding: 15rem 100px 0rem 100px;
+  position: relative; /* Para posicionar los controles de manera absoluta */
+}
+
+.galeria-fotos h2 {
+    color: #3CB371; /* El color verde de la imagen */
+    margin-bottom: 1rem; /* Espaciado inferior del título */
+  }
+
+  .galeria-fotos p {
+    color: #666666; /* El color morado-azul que se vio en la imagen */
+    line-height: 1.5;
+  }
+
+  @media screen and (max-width: 881px) {
+    .galeria-fotos {
+      padding: 2rem 25px 0rem 25px;
+    }
+  }

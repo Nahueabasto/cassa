@@ -1,16 +1,13 @@
 import React, { useEffect } from 'react';
 import Navbar from '../component/Navbar';
-import Slider from '../component/Slider';
+import GaleriaFotos from '../component/Galeria/GaleriaFotos';
 import Footer from '../component/Footer';
-import Summary from '../component/Summary';
 
-
-export default function Home(){
+export default function Galeria(){
     return(
         <div>
        <Navbar />
-       <Slider />
-       <Summary />
+       <GaleriaFotos />
        <Footer />
         </div>
     )

@@ -34,7 +34,7 @@ const Navbar = () => {
         <Link to="/" className="logo">
           <img className="logoeco" src={img} alt="EcoEcho" width="130" height="130" />
         </Link>
-        <p className="tagline">Cabañas | Villa Berna | Córdoba | Argentina</p>
+        <p className="tagline">Cabañas Nahuel | Villa Berna | Córdoba | Argentina</p>
       </div>
 
       <div className="right">
@@ -56,35 +56,35 @@ const Navbar = () => {
               <Link to="/" onClick={handleClick}>Home</Link>
             </li>
             <li>
-              <Link to="/nosotros" onClick={handleClick}>Servicios</Link>
+              <Link to="/servicios" onClick={handleClick}>Servicios</Link>
             </li>
             <li>
-              <Link to="/servicios" onClick={handleClick}>Cabañas</Link>
+              <Link to="/cabañas" onClick={handleClick}>Cabañas</Link>
             </li>
             <li>
-              <Link to="/clientes" onClick={handleClick}>Galeria</Link>
+              <Link to="/galeria" onClick={handleClick}>Galeria</Link>
             </li>
             <li>
-              <Link to="/contacto" onClick={handleClick}>Reservas</Link>
+              <Link to="/reservas" onClick={handleClick}>Reservas</Link>
             </li>
           </ul>
         )}
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <Link to="/" onClick={handleClick}>Home</Link>
+            <Link to="/" onClick={handleClick}>HOME</Link>
           </li>
           <li>
-            <Link to="/nosotros" onClick={handleClick}>Servicios</Link>
+            <Link to="/servicios" onClick={handleClick}>SERVICIOS</Link>
           </li>
           <li>
-            <Link to="/servicios" onClick={handleClick}>Cabañas</Link>
+            <Link to="/cabañas" onClick={handleClick}>CABAÑAS</Link>
           </li>
           <li>
-            <Link to="/clientes" onClick={handleClick}>Galeria</Link>
+            <Link to="/galeria" onClick={handleClick}>GALERIA</Link>
           </li>
           <li>
-            <Link to="/contacto" onClick={handleClick}>Reservas</Link>
+            <Link to="/reservas" onClick={handleClick}>RESERVAS</Link>
           </li>
         </ul>
         {/* Iconos sociales */}

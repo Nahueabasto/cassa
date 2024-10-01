@@ -30,8 +30,8 @@
 }
 
 .slide-controls .slide-control {
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
+  /* background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px; */
   color: white;
   cursor: pointer;
   width: 40px;

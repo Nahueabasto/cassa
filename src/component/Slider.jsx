@@ -50,10 +50,10 @@ const Slider = () => {
         />
         <div className="slide-controls">
           <div className="slide-control prev" onClick={handlePrev}>
-            <ArrowBackIosNewIcon size={50} style={{ color: "#d6d2d2", fontSize: "large" }} />
+            <ArrowBackIosNewIcon size={50} style={{ color: "#fff", fontSize: "" }} />
           </div>
           <div className="slide-control next" onClick={handleNext}>
-            <ArrowForwardIosIcon size={50} style={{ color: "#d6d2d2", fontSize: "large" }} />
+            <ArrowForwardIosIcon size={50} style={{ color: "#fff", fontSize: "" }} />
           </div>
         </div>
       </div>
