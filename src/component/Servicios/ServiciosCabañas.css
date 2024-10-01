@@ -48,7 +48,6 @@
   pointer-events: auto; /* Establece pointer-events en auto para los elementos de las flechas */
 }
 
-
 .flecha {
   pointer-events: auto;
 }
@@ -95,7 +94,6 @@
   margin-top: 40px;
   z-index: 100;
 }
-
 
 .modal-close {
   position: absolute;
@@ -196,11 +194,15 @@
     justify-content: center;
   }
   .imagen-modal {
-    width: 400px;
+    width: 100%;
     height: auto;
     margin-top: 40px;
     z-index: 1001;
   }
+.modal-arrow-left,
+.modal-arrow-right {
+  z-index: 1002; /* increase z-index to 1002 */
+}
 }
 
 
