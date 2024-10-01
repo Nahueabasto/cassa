@@ -182,10 +182,12 @@
 @media screen and (max-width: 881px) {
   .dete {
     padding: 2rem 25px 0rem 25px;
+    align-items: flex-start;
   }
 
-  h2 {
-    align-items: center;
+  .dete h2 {
+    /* align-items: flex-start; */
+    text-align: left;
   }
 
   .detalle-f {
@@ -232,12 +234,13 @@
   z-index: 1002; /* increase z-index to 1002 */
 }
 
-/* .texto{
+.texto{
   text-align: left;
-  grid-column-gap: 0px;
-} */
+  justify-content: left;
+}
 .texto h3{
   margin-top: 1rem;
+  text-align: left;
 }
 }
 
