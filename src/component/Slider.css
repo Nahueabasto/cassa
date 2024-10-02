@@ -19,7 +19,7 @@
 
 .slide-controls {
   position: absolute;
-  top: 50%; /* Coloca las flechas en el centro vertical de la imagen */
+  top: 45%; /* Coloca las flechas en el centro vertical de la imagen */
   left: 0;
   right: 0;
   display: flex;

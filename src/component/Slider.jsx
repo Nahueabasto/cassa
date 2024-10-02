@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Imagen from "../img/4.jpg";
 import image1 from "../img/5.jpg";
 import image2 from "../img/6.jpg";
-import image3 from "../img/r.jpg";
+import image3 from "../img/7.jpg";
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import "./Slider.css";
@@ -25,7 +25,7 @@ const Slider = () => {
       );
       // Reiniciar el estado de carga de la imagen
       setImageLoaded(false);
-    }, 4000); // Cambiar cada 4 segundos (ajusta según tus necesidades)
+    }, 9000); // Cambiar cada 4 segundos (ajusta según tus necesidades)
 
     // Limpiar el intervalo cuando el componente se desmonta o el slide cambia
     return () => clearInterval(interval);
