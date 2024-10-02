@@ -8,7 +8,7 @@
 }
 
 .dete h2 {
-  width: 100%; /* Hace que el h2 ocupe el 100% del ancho del contenedor padre */
+  width: 100%;
   color: #3CB371;
   margin-bottom: 40px;
   text-align: center;
@@ -27,10 +27,11 @@
   grid-auto-flow: column; 
 }
 
-
 .imagenes-container img {
   width: 600px;
-  height: auto; /* Mantiene la proporción de la imagen */
+  max-height: 240px;
+  object-fit: cover;
+  object-position: center; /* add this to center the image horizontally */
   border-radius: 2px;
   cursor: pointer;
 }

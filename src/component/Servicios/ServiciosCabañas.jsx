@@ -4,8 +4,11 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import CloseIcon from '@mui/icons-material/Close';
 import { useSwipeable } from 'react-swipeable';
 import "./ServiciosCabañas.css";
-import img from "../../img/4.jpg";
-import im from "../../img/5.jpg";
+import img from "../../img/8.jpg";
+import im from "../../img/9.jpg";
+// import im from "../../img/5.jpg";
+// import im from "../../img/5.jpg";
+
 
 const ServiciosCabañas = () => {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
@@ -14,6 +17,8 @@ const ServiciosCabañas = () => {
   const [slidePictures, setSlidePictures] = useState([
     { image: img, url: '/40' },
     { image: im, url: '/32' },
+    // { image: im, url: '/32' },
+    // { image: im, url: '/32' },
   ]);
 
   const abrirModal = () => {

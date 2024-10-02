@@ -13,7 +13,7 @@ export default function Footer(){
       <div className="footer" >
       <div className="container">
       <div className="logotipo">
-      <img className="logoeco" src={Imagen} alt="EcoEcho" width="200" height="200" />
+      <img className="logoeco" src={Imagen} alt="EcoEcho" width="100" height="100" />
       </div>
     <div className="Informacion">
       <Link to="/contacto" className="links">
@@ -65,19 +65,12 @@ export default function Footer(){
       target="_blank" // Esto abre el enlace en una nueva pestaña o ventana
       rel="noopener noreferrer" // Recomendado para seguridad
     >
-      {/* <div className="location">
-    <LinkedInIcon
-          className="mui"
-          size={20}
-          style={{ color: "#fff", fontSize: "large", marginRight: "0rem" }}
-        />
-        </div> */}
   </a>
   </div>
 
   </div>
   <p className="rights">
-      &copy; 2024 Cabañas | Villa Berna | Cordoba | Argentina | All Rights Reserved
+      &copy; 2024 Cabañas Nahuel | Villa Berna | Cordoba | Argentina | All Rights Reserved
     </p>
     
 </div>

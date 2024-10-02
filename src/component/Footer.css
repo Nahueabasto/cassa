@@ -33,40 +33,34 @@
   .Contacto p,
   .Informacion p {
     margin-bottom: 5px;
+    color: #fff;
   }
-  
   
   .logotipo{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: 0rem 0px 0rem 0px; */
   }
   
   .social-links {
     align-items: center;
     justify-content: center;
     display: flex;
-    
   }
-  
   
   .links {
     text-decoration: none;
     color: inherit;
- 
   }
   
-  
     .links:hover {
-      color:  rgba(61, 62, 150, 0.85);
+      color:  rgba(10, 10, 20, 0.85);
     }
-  
-  
   
     .rights {
       text-align: center;
       margin-top: 10px; /* Ajusta el espacio superior del contenedor de derechos de autor */
+      color: #fff;
     }
   
     .rights p {
@@ -86,13 +80,9 @@
         grid-template-columns: 1fr;
         /* grid-gap: 0px; */
       }
-  
         .logotipo{
           justify-content: center;
-          
         }
-      
-    
     }
 
   
