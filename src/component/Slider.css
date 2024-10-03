@@ -102,8 +102,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px; /* Asegura que las flechas estén dentro de la imagen */
-  z-index: 1; /* Para que las flechas queden sobre la imagen */
+  padding: 0 20px; 
+  z-index: 1; 
+  pointer-events: none; /* Asegura que es al estar siempre sobre la imagen se puede hacer click para abrir la ventana modal */
 }
 
 .slide-controls .slide-control {
@@ -116,6 +117,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  pointer-events: auto;
 }
 
 .slide-controls .slide-control:focus {
@@ -189,6 +191,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   padding: 5px 10px;
   border-radius: 5px;
+  z-index: 2;
 }
 
 @media screen and (max-width: 881px) {
