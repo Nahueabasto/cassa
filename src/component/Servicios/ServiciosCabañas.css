@@ -200,9 +200,9 @@
 
   .imagenes-container img {
     max-width: 100%;
-    max-height: 240px;
+    max-height: 200px; /*mover la altura maxima de la imagen */
     /* height: 200px; */
-    height: auto; /* Mantiene la proporción de la imagen */
+    height: auto; 
     cursor: pointer;
   }
 
