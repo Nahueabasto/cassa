@@ -14,6 +14,7 @@
   .subtitle-container p {
     color: #666666; /* El color morado-azul que se vio en la imagen */
     line-height: 1.5;
+    margin-bottom: 10px;
   }
 
  @media screen and (max-width: 881px) {

@@ -1,21 +1,11 @@
 .dete {
-  padding: 15rem 0px 0rem 0px;
+  /* padding: 1rem 0px 0rem 0px; */
+  padding: 1rem 120px 0rem 120px;
   margin-bottom: 30px;
   display: flex;
-  flex-direction: column; /* establece la dirección de los elementos en columna */
+  flex-direction: column;
   align-items: center;
-  /* position: relative; */
-}
-
-.dete h2 {
-  width: 100%;
-  color: #3CB371;
-  margin-bottom: 40px;
-  text-align: center;
-  background-color: white;
-  justify-items: center; 
-  z-index: 10;
-  margin-right: 660px;
+  
 }
 
 .detalle-f {
@@ -28,10 +18,10 @@
 }
 
 .imagenes-container img {
-  width: 600px;
+  width: 550px;
   max-height: 240px;
   object-fit: cover;
-  object-position: center; /* add this to center the image horizontally */
+  object-position: center; 
   border-radius: 2px;
   cursor: pointer;
 }
@@ -39,23 +29,21 @@
 .slide-contro {
   position: absolute;
   top: 40%;
-  left: 0;
   right: 0;
+  left: 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px;
+  padding: 0 0px;
   z-index: 1;
   width: 600px;
   pointer-events: none;
 }
 
 .slide-contro .slide-control {
-  /* background: rgba(0, 0, 0, 0.5); */
-  /* border-radius: 20px; */
   color: white;
   cursor: pointer;
-  width: 40px;
+  width: 30px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -77,17 +65,6 @@
   padding: 5px 10px;
   border-radius: 5px;
   z-index: 2; /* Asegura que el contador esté por encima de las flechas */
-}
-
-.dot-container {
-  display: flex;
-  justify-content: center;
-}
-
-.dot-container-item {
-  margin: 8px 3px;
-  cursor: pointer;
-  font-size: 10px;
 }
 
 .modal-background {
@@ -149,17 +126,6 @@
   border-radius: 5px;
 }
 
-.pepe p {
-  margin: 0; 
-  width: 95%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow-wrap: break-word;
-}
-.imagenes-container img {
-  width: 500px;
-}
 
 .slide-contro {
   width: 500px;
@@ -175,14 +141,45 @@
 }
 
 @media screen and (max-width: 1322px) {
-  .dete h2{
-  margin-right: 0px;
+  .detalle-f {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    margin-bottom: 200px;
+    margin: 0 auto;
   }
+  .textoo{
+    text-align: left;
+    justify-content: left;
+    margin-bottom: 30px;
+  }
+  .imagenes-container img {
+    width: 600px;
+    max-height: 240px;
+ 
+  }
+  .slide-contro {
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1px;
+    z-index: 1;
+    width: 550px;
+    pointer-events: none;
+  }
+  
+
 }
 
 @media screen and (max-width: 881px) {
   .dete {
-    padding: 2rem 25px 0rem 25px;
+    padding: 1rem 25px 0rem 25px;
     align-items: flex-start;
   }
 
@@ -202,7 +199,8 @@
   }
 
   .imagenes-container img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 240px;
     /* height: 200px; */
     height: auto; /* Mantiene la proporción de la imagen */
     cursor: pointer;
@@ -244,5 +242,3 @@
   text-align: left;
 }
 }
-
-

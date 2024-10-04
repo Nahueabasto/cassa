@@ -65,7 +65,6 @@ return () => {
 
   return (
     <div className='dete'>
-    <h2>Servicios que ofrece Cabañas Nahuel</h2>
     <div className="detalle-f">
       <div className="imagenes-container" style={{ position: 'relative' }} {...handlers}>
         <div className="slider-container">

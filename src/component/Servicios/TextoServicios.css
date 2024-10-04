@@ -1,0 +1,18 @@
+.texto-servicios{
+  padding: 15rem 120px 0rem 120px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.texto-servicios h2 {
+      color: #3CB371; /* El color verde de la imagen */
+      margin-bottom: 2rem; /* Espaciado inferior del título */
+      /* margin-left: 200px; */
+    }
+
+    @media screen and (max-width: 881px) {
+        .texto-servicios {
+          padding: 2rem 25px 0rem 25px;
+        }
+      }

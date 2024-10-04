@@ -1,0 +1,21 @@
+.texto-cabañas {
+    /* padding: 15rem 0px 0rem 0px; */
+    padding: 15rem 120px 0rem 120px;
+    /* margin-bottom: 30px; */
+    display: flex;
+    flex-direction: column; /* establece la dirección de los elementos en columna */
+  }
+
+  .texto-cabañas h2 {
+    /* padding: 0rem 900px 0rem 10px; */
+      color: #3CB371; /* El color verde de la imagen */
+      margin-bottom: 2rem; /* Espaciado inferior del título */
+      
+    }
+
+    @media screen and (max-width: 881px) {
+      .texto-cabañas{
+        padding: 2rem 25px 0rem 25px;
+      }
+
+    }

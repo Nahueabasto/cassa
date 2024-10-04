@@ -1,20 +1,75 @@
-.cabañas{
-    padding: 15rem 100px 0rem 100px;
-  position: relative; /* Para posicionar los controles de manera absoluta */
+.detee{
+    padding: 1rem 120px 0rem 120px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  
 }
 
-.cabañas h2 {
-    color: #3CB371; /* El color verde de la imagen */
-    margin-bottom: 1rem; /* Espaciado inferior del título */
+
+  .control {
+    position: absolute;
+    top: 23%;
+    left: 5%;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    z-index: 1;
+    width: 500px;
+    pointer-events: none;
   }
 
-  .cabañas p {
-    color: #666666; /* El color morado-azul que se vio en la imagen */
-    line-height: 1.5;
+  .control .con {
+    /* background: rgba(0, 0, 0, 0.5); */
+    /* border-radius: 20px; */
+    color: white;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: auto; /* Establece pointer-events en auto para los elementos de las flechas */
   }
 
-  @media screen and (max-width: 881px) {
-    .cabañas {
-      padding: 2rem 25px 0rem 25px;
+  @media screen and (max-width: 1322px) {
+    .control {
+      position: absolute;
+      top: 40%;
+      left: 4%;
+      right: 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 1px;
+      z-index: 1;
+      width: 550px;
+      pointer-events: none;
     }
   }
+
+
+  @media screen and (max-width: 881px) {
+    .detee{
+      padding: 0rem 25px 0rem 25px;
+    }
+    .texto{
+      /* margin-top: 1px; */
+      margin-bottom: 50px;
+    }
+    .control {
+      position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    z-index: 1;
+    width: 100%; 
+  }
+}
