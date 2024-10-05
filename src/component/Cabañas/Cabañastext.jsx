@@ -4,8 +4,8 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import CloseIcon from '@mui/icons-material/Close';
 import { useSwipeable } from 'react-swipeable';
 import "./Cabañastext.css";
-import img from "../../img/8.jpg";
-import im from "../../img/9.jpg";
+import img from "../../img/5.jpg";
+import im from "../../img/7.jpg";
 
 
 const Cabañastext = () => {
