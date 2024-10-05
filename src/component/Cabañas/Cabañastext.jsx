@@ -4,8 +4,9 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import CloseIcon from '@mui/icons-material/Close';
 import { useSwipeable } from 'react-swipeable';
 import "./Cabañastext.css";
-import img from "../../img/5.jpg";
-import im from "../../img/7.jpg";
+import img from "../../img/3.jpg";
+import im from "../../img/10.jpg";
+import imge from "../../img/11.jpg";
 
 
 const Cabañastext = () => {
@@ -15,7 +16,7 @@ const Cabañastext = () => {
   const [slidePictures, setSlidePictures] = useState([
     { image: img, url: '/40' },
     { image: im, url: '/32' },
-    // { image: im, url: '/32' },
+    { image: imge, url: '/32' },
     // { image: im, url: '/32' },
   ]);
 

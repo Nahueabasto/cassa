@@ -19,7 +19,7 @@
 
 .imagenes-container img {
   width: 550px;
-  max-height: 240px;
+  max-height: 400px;
   object-fit: cover;
   object-position: center; 
   border-radius: 2px;
