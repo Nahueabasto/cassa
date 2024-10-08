@@ -46,7 +46,7 @@ const ContactForm = () => {
     <div className='containe'>
       <div className='row'>
         <div className='col-md-6'>
-          <h2>Formulario de contacto</h2>
+          <h3>Formulario de contacto</h3>
           <form onSubmit={handleSubmit}>
             <div className='form-group'>
               <label htmlFor='firstName'>Nombre:</label>
@@ -86,7 +86,7 @@ const ContactForm = () => {
           </form>
         </div>
         <div className='col-md-6'>
-          <h2>Ubicación</h2>
+          <h3>Ubicación</h3>
           <div className='map'>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27093.745263410543!2d-64.75093310327338!3d-31.914254288276027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2ca62efc6e437%3A0xef69decb8b3dc9cb!2sVilla%20Berna%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1728328398932!5m2!1ses-419!2sar"

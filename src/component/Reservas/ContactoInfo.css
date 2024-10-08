@@ -17,8 +17,10 @@
   flex-basis: 50%;
 }
 
-h2 {
+h3 {
   margin-top: 0;
+  margin-bottom: 10px;
+  color: #666666;
 }
 
 form {
@@ -61,6 +63,7 @@ button[type='submit'] {
 
 button[type='submit']:hover {
   background-color: #3e8e41;
+  
 }
 
 .map {
@@ -79,5 +82,12 @@ button[type='submit']:hover {
 @media (max-width: 881px) {
   .col-md-6 {
     flex-basis: 100%; /* Hace que el formulario y el mapa ocupen el 100% del ancho */
+  }
+  form {
+    margin-bottom: 50px; /* Añade espacio extra debajo del formulario */
+  }
+
+  .map {
+    margin-top: 30px; /* Añade espacio entre el formulario y el mapa */
   }
 }

@@ -4,13 +4,18 @@
     /* margin-bottom: 30px; */
     display: flex;
     flex-direction: column; /* establece la dirección de los elementos en columna */
+    max-width: 1100px;
   }
 
   .texto-reserva h2 {
-    /* padding: 0rem 900px 0rem 10px; */
-      color: #3CB371; /* El color verde de la imagen */
-      margin-bottom: 2rem; /* Espaciado inferior del título */
-      
+      color: #3CB371; 
+      margin-bottom: 2rem; 
+    }
+
+    .texto-reserva p {
+      color: #666666; /* El color morado-azul que se vio en la imagen */
+      line-height: 0.5;
+      margin-bottom: 10px;
     }
 
     @media screen and (max-width: 881px) {
