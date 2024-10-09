@@ -1,15 +1,13 @@
 .texto-reserva {
-    /* padding: 15rem 0px 0rem 0px; */
     padding: 15rem 120px 0rem 120px;
-    /* margin-bottom: 30px; */
     display: flex;
     flex-direction: column; /* establece la dirección de los elementos en columna */
-    max-width: 1100px;
+    /* max-width: 100%; */
   }
 
   .texto-reserva h2 {
-      color: #3CB371; 
-      margin-bottom: 2rem; 
+      color: #3CB371;
+      margin-bottom: 2rem;
     }
 
     .texto-reserva p {
