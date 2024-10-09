@@ -7,7 +7,7 @@ if (window.location.hostname === 'localhost') {
     baseURL = 'http://localhost:3000';
 } else {
     // Si no es localhost, asume que está en producción y utiliza la URL de producción
-    baseURL = 'https://cassa-psi.vercel.app/?vercelToolbarCode=3_qSWPWE1OdLGa6/';
+    baseURL = 'https://cassa-psi.vercel.app/';
 }
 
 // Crea una instancia de axios con la URL correspondiente
