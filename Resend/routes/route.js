@@ -1,21 +1,19 @@
+// routes/route.js
 import express from 'express';
 import { Resend } from 'resend';
 import dotenv from 'dotenv';
 
-// Cargar las variables de entorno
 dotenv.config();
-// Inicializar el enrutador
 const router = express.Router();
-
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-router.post('/', async (req, res) => {
+router.post('/email', async (req, res) => {
   const { firstName, email, message } = req.body;
 
   try {
     const { data, error } = await resend.emails.send({
-      from: `${firstName} <onboarding@resend.dev>`,  // Correo fijo desde dominio verificado
-      to: ['nahuel7474@gmail.com'],  // Tu correo fijo como destinatario
+      from: `${firstName} <onboarding@resend.dev>`,
+      to: ['nahuel7474@gmail.com'],
       subject: `Message from ${firstName}`,
       html: `<p><strong>Name:</strong> ${firstName}</p>
              <p><strong>Email:</strong> ${email}</p>
@@ -34,3 +32,4 @@ router.post('/', async (req, res) => {
 });
 
 export default router;
+

@@ -5,9 +5,12 @@ import Cabañas from './pages/Cabañas';
 import Galeria from './pages/Galeria';
 import Reservas from './pages/Reservas';
 import './App.css';
+import { AuthProvider } from './Context/AuthContext';
+
 
 function App() {
   return (
+    <AuthProvider>
     <HashRouter>
       <div className="flex">
         <Routes>
@@ -19,6 +22,7 @@ function App() {
         </Routes>
       </div>
     </HashRouter>
+    </AuthProvider>
   );
 }
 
