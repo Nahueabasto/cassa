@@ -12,15 +12,15 @@ export default function Footer(){
     return(
       <div className="footer" >
       <div className="container">
-      <div className="logotipo">
+      {/* <div className="logotipo">
       <img className="logoeco" src={Imagen} alt="EcoEcho" width="100" height="100" />
-      </div>
-    <div className="Informacion">
+      </div> */}
+    {/* <div className="Informacion">
       <Link to="/contacto" className="links">
         <p>Contacto</p>
       </Link>
-    </div>
-  <div className="social-links">
+    </div> */}
+  {/* <div className="social-links">
   <a
       href=""
       target="_blank" // Esto abre el enlace en una nueva pestaña o ventana
@@ -66,7 +66,7 @@ export default function Footer(){
       rel="noopener noreferrer" // Recomendado para seguridad
     >
   </a>
-  </div>
+  </div> */}
 
   </div>
   <p className="rights">
