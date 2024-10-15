@@ -3,7 +3,7 @@
   position: relative; /* Para posicionar los controles de manera absoluta */
 }
 
-.galeria-fotos h2 {
+.hero h2 {
     color: #3CB371; /* El color verde de la imagen */
     margin-bottom: 1rem; /* Espaciado inferior del título */
   }

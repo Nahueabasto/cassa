@@ -77,6 +77,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import CloseIcon from '@mui/icons-material/Close';
 import "./Slider.css";
 
+
 const Slider = () => {
   const [slidePictures, setSlidePictures] = useState([
     { image: Imagen, url: '/40' },
