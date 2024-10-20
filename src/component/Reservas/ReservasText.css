@@ -1,8 +1,7 @@
 .texto-reserva {
     padding: 15rem 120px 0rem 120px;
     display: flex;
-    flex-direction: column; /* establece la dirección de los elementos en columna */
-    /* max-width: 100%; */
+    flex-direction: column; 
   }
 
   .texto-reserva h2 {
@@ -11,7 +10,7 @@
     }
 
     .texto-reserva p {
-      color: #666666; /* El color morado-azul que se vio en la imagen */
+      color: #666666; 
       line-height: 0.5;
       margin-bottom: 10px;
     }
@@ -20,8 +19,4 @@
       .texto-reserva {
         padding: 2rem 25px 0rem 25px;
       }
-      /* .texto-reserva p {
-        margin-bottom: 1rem;
-      } */
-
     }
